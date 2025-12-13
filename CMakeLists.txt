@@ -12,6 +12,10 @@ set(OpenCV_DIR "C:/opencv/build/x64/vc16/lib")
 find_package(OpenCV REQUIRED)
 include_directories(${OpenCV_INCLUDE_DIRS})
 
-add_executable(OpenCVTest1 main.cpp)
+add_executable(OpenCVTest1 main.cpp
+        VideoCapture.h
+        VideoCapture.cpp
+        CameraStreamer.h
+        CameraStreamer.cpp)
 
 target_link_libraries(OpenCVTest1 ${OpenCV_LIBS})
