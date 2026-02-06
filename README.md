@@ -63,7 +63,7 @@ pip install opencv-python numpy
 ### 💻 Usage
 ```bash
 # Run from the project root directory
-python main_demo.py
+python main.py
 ```
 
 ### 🎮 Controls (During Runtime)
