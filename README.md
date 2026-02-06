@@ -54,3 +54,31 @@ cmake ..
 cmake --build . --config Release
 ```
 Make sure the generated .pyd (Windows) or .so (Linux) file is in the build directory.
+
+### 3. Install Python Dependencies
+```bash
+pip install opencv-python numpy
+```
+
+### 💻 Usage
+```bash
+# Run from the project root directory
+python main_demo.py
+```
+
+### 🎮 Controls (During Runtime)
+These controls allow for real-time interaction during demonstrations:
+
+- q: Quit the application.
+
+- s: Save a screenshot (saved to project root folder).
+
+- m: Toggle Manual Mode (Simulate light conditions via keyboard).
+
+- 1: Force Passthrough (Daylight Simulation).
+
+- 2: Force Gamma Correction (Tunnel Simulation).
+
+- 3: Force CLAHE (Street Light Simulation).
+
+- 4: Force Full Hybrid Pipeline (Pitch Black Simulation).
