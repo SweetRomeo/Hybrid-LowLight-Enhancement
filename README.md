@@ -90,17 +90,18 @@ python tests.py
 ```
 
 ### 📂 Project Structure
+```text
 Hybrid-LowLight-Enhancement/
 ├── src/
 │   ├── LowLightEnhancer.cpp    # Core C++ implementation
-│   ├── bindings.cpp            # Pybind11 Python wrapper
-│   └── ...
+│   └── bindings.cpp            # Pybind11 Python wrapper
 ├── include/
 │   └── LowLightEnhancer.h      # Header definitions
 ├── main_demo.py                # Main application (HUD & Logic)
 ├── tests.py                    # Unit tests
 ├── CMakeLists.txt              # Build configuration
 └── README.md                   # Documentation
+```
 
 ### 🤝 Contact & License
 Developed as part of a Master's Thesis on Autonomous Vehicle Perception. Licensed under the MIT License.
