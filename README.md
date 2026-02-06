@@ -42,5 +42,13 @@ The system categorizes the environment into 4 distinct zones:
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/YOUR_USERNAME/RealTime-LLE-Cpp.git](https://github.com/YOUR_USERNAME/RealTime-LLE-Cpp.git)
-cd RealTime-LLE-Cpp
+git clone [https://github.com/YOUR_USERNAME/RealTime-LLE-Cpp.git](https://github.com/YOUR_USERNAME/Hybrid-LowLight-Enhancement.git)
+cd Hybrid-LowLight-Enhancement
+
+### 2. Build the C++ Engine (backend)
+```bash
+mkdir cmake-build-release
+cd cmake-build-release
+cmake ..
+cmake --build . --config Release
+```
