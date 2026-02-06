@@ -53,3 +53,4 @@ cd cmake-build-release
 cmake ..
 cmake --build . --config Release
 ```
+Make sure the generated .pyd (Windows) or .so (Linux) file is in the build directory.
