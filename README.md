@@ -42,7 +42,7 @@ The system categorizes the environment into 4 distinct zones:
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/YOUR_USERNAME/RealTime-LLE-Cpp.git](https://github.com/YOUR_USERNAME/Hybrid-LowLight-Enhancement.git)
+git clone [https://github.com/YOUR_USERNAME/RealTime-LLE-Cpp.git](https://github.com/YOUR_USERNAME/Hybrid-LowLight-Enhancement.git
 cd Hybrid-LowLight-Enhancement
 ```
 
