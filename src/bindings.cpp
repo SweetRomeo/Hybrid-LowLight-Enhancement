@@ -1,6 +1,6 @@
 #include <pybind11/pybind11.h>
 #include <pybind11/numpy.h> // Numpy desteği için şart
-#include "LowLightEnhancer.h"
+#include "../include/LowLightEnhancer.h"
 
 namespace py = pybind11;
 

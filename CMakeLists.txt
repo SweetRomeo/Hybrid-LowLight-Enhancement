@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.24)
-project(OpenCVTest1)
+project(Hybrid-LowLight-Enhancement)
 
 set(CMAKE_CXX_STANDARD 20)
 
@@ -35,8 +35,8 @@ find_package(Python COMPONENTS Interpreter Development REQUIRED)
 # HEDEF 1: PYTHON MODÜLÜ (.pyd)
 # ==========================================
 pybind11_add_module(low_light_module
-        LowLightEnhancer.cpp
-        bindings.cpp
+        src/LowLightEnhancer.cpp
+        src/bindings.cpp
 )
 
 # Modüle OpenCV'yi bağlıyoruz
@@ -47,7 +47,7 @@ target_link_libraries(low_light_module PRIVATE ${OpenCV_LIBS})
 # ==========================================
 add_executable(OpenCVTest1
         main.cpp
-        LowLightEnhancer.cpp
+        src/LowLightEnhancer.cpp
 )
 
 target_link_libraries(OpenCVTest1 ${OpenCV_LIBS})

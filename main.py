@@ -5,7 +5,7 @@ import time
 import numpy as np
 
 # C++ Module Upload
-build_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '../cmake-build-release'))
+build_path = os.path.abspath(os.path.join(os.path.dirname(__file__), 'cmake-build-release'))
 sys.path.append(build_path)
 
 if os.name == 'nt':

@@ -6,7 +6,7 @@ import unittest
 import numpy as np
 
 # --- Modül Yolunu Ayarla (main.py'deki gibi) ---
-build_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '../cmake-build-release'))
+build_path = os.path.abspath(os.path.join(os.path.dirname(__file__), 'cmake-build-release'))
 sys.path.append(build_path)
 
 # Windows için DLL yolu
