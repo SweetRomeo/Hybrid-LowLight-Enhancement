@@ -1,4 +1,4 @@
-#include "LowLightEnhancer.h"
+#include "../include/LowLightEnhancer.h"
 
 // Constructor
 LowLightEnhancer::LowLightEnhancer() {}
